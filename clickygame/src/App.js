@@ -70,15 +70,16 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="Simpsons Clicky Game"
+          title="South Park Memory Game"
           score={this.state.currentScore}
           topScore={this.state.topScore}
           rightWrong={this.state.rightWrong}
         />
 
         <Title>
-          Try to click on each character, but don't hit any duplicates, or
-          we'll release the hounds!!!
+          Try to click on each character, but don't hit any duplicates or you'll
+          unleash the Wrath of Cartmen!!!!
+  
         </Title>
 
         <Container>
