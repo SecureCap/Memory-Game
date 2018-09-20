@@ -55,7 +55,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Glaven!",
+      rightWrong: "Timmy Timmy!",
       clicked: []
     });
     this.handleShuffle();
@@ -77,7 +77,7 @@ class App extends Component {
         />
 
         <Title>
-          Try to click on each character, but don't hit any duplicates or you'll
+          Click on each character, without clicking duplicates or you'll
           unleash the Wrath of Cartmen!!!!
   
         </Title>
